@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26261",
 "files": {
+	"\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
 	"\/app\/img\/acciona.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -146,6 +153,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/img\/seceyco.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/app\/img\/seceyco.mp4",
+		"oF": 0
+		},
 	"\/app\/img\/seceyco.png": {
 		"ft": 32768,
 		"iS": 27569,
@@ -200,6 +214,13 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,
