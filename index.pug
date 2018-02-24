@@ -1,0 +1,185 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="https://unpkg.com/slick-carousel@1.8.1/slick/slick.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
+    link(rel="stylesheet" href="app/style.css")
+    title Bombeo de Concreto | México | SECEYCO
+    meta(name="description" content="Somos un proveedor estratégico en la industria de la construcción. Bombeo de concreto, Estabilización de suelos.")
+  body
+    
+    
+    .navbar(role="navigation")
+        .navbar-brand
+          a(href="http://seceyco.com.com/").navbar-item.has-text-centered
+            img(src="app/img/seceyco.png", alt="SECEYCO")
+          .navbar-burger.burger(data-target="mainMenu")
+            span
+            span
+            span
+        .navbar-menu#mainMenu
+          .navbar-end.mainitems
+            .navbar-item: a(href="#inicio") INICIO
+            .navbar-item
+              .dropdown.is-hoverable
+                .dropdown-trigger
+                  a(href="#servicios") SERVICIOS
+                .dropdown-menu
+                  .dropdown-item: a(href="#servicios") MEJORAMIENTO DE SUELOS
+                  .dropdown-item: a(href="#servicios") BOMBEO DE CONCRETO
+            .navbar-item: a(href="#nosotros") NOSOTROS
+            .navbar-item: a(href="#proyectos") PROYECTOS
+            .navbar-item: a(href="#cotiza") COTIZA
+            .navbar-item: a(href="#contacto") CONTACTO
+          .navbar-end
+            .navbar-item.socials
+              .columns.is-mobile
+                a(href="https://www.facebook.com/Seceyco-301164783714619/" target="_blank").column.fb: i.fa.fa-facebook
+                a(href="https://twitter.com/SECEYCOMX" target="_blank").column.tw: i.fa.fa-twitter
+                a(href="https://www.linkedin.com/company/27116863/" target="_blank").column.li: i.fa.fa-linkedin
+                a(href="https://www.instagram.com/seceyco_/" target="_blank").column.in: i.fa.fa-instagram
+                a(href="https://www.youtube.com/channel/UCYQlUonzRBve1DZYdMMk-_Q" target="_blank").column.yt: i.fa.fa-youtube-play
+    header.hero
+      video(autoplay muted loop preload="metadata" poster="app/img/seceyco-bg.jpg")
+        source(src="app/img/seceyco.mp4" type="video/mp4")
+      .hero-body
+          .container
+            .has-text-centered
+              img(src="app/img/seceyco-s.png" alt="Seceyco").seceyco-s
+              .columns.is-centered
+                .column.is-6
+                  h2 EXPERTOS EN SERVICIOS PARA LA CONSTRUCCIÓN
+                  i.fa.fa-angle-down
+
+    #servicios
+      div.band: h2.titulo SERVICIOS
+      .columns.is-gapless
+        a(href="#").column.bombeo
+          img(src="app/img/bombeo1.jpg", alt="Bombeo de concreto")
+        a(href="#").column.movimiento
+          img(src="app/img/movimiento1.jpg", alt="Movimiento de tierras")
+            
+    #nosotros
+      div.band: i.fa.fa-angle-down     
+      .columns.us
+        .column.bg
+          | &nbsp;
+        .column
+          .section: .columns
+            .column.is-8.is-offset-2
+              h2.titulo NOSOTROS
+              p Durante más de 38 años, SECEYCO ha participado en México en todo tipo de obra, como: Construcciones Habitacionales, Edificación, Centros Comerciales, obras de infraestructura como puentes, pasos a desnivel, túneles, plantas industriales, carreteras, presas, etc.
+              p Varias de estas obras han requerido de un alto grado de especialización, dándonos así una importante experiencia que nos ha permitido convertirnos en el bombeador de concreto independiente con mayor participación en México.
+              p La Visión de SECEYCO es: ser un proveedor estratégico en la industria de la construcción, aportando de manera continua nuevos productos y servicios.
+              p De acuerdo a lo anterior, día a día nuestro Objetivo de innovación se centra en la mejora de los procesos de constructivos, es por ellos que hemos incursionado en el mejoramiento de suelos empleando para ello procesos comprobados con tecnología de punta con nuestra división de Movimiento de Tierras.
+      .estadisticas
+        .container
+          .columns.has-text-centered
+            .column
+              p.is-size-1 1979
+              p.is-size-5 Año de Establecimiento
+            .column
+              p.is-size-1 +20
+              p.is-size-5 Millones m3 bombeados
+            .column
+              p.is-size-1 +300
+              p.is-size-5 Metros de altura en bombeo en croncreto
+            .column
+              p.is-size-1 21
+              p.is-size-5 Días de colado continuo
+            .column
+              p.is-size-1 +1000
+              p.is-size-5 Proyectos completados
+            .column
+              p.is-size-1 +35000
+              p.is-size-5 M3 estabilizados con cal en un mes
+    
+    #proyectos
+      div.band: h2.titulo CASOS DE ÉXITO
+      .container.proyectos
+        .columns
+          .column: a(href="#")
+            h3 MINI BODEGAS ADVANCE
+            p Estabilización de 30 cm de espesor de suelos arcillosos para la formación de Plataformas, empleando Óxido de Calcio (Estabilical) como material estabilizador, con una dosificación del %3.
+          .column: a(href="#")
+            h3 PLANTA KIA MOTORS MONTERREY
+            p Estabilización de 30 cm de espesor de suelos arcillosos para la formación de Plataformas del Patio de Maniobras, con Óxido de Calcio (Estabilical) como material estabilizador y una dosificación del %4.
+          .column: a(href="#")
+            h3 RESIDENCIAL TORRE PIEDRA
+            p Saturación 8,500 m2 y 50 cm de espesor de suelos arcillosos, para la formación de Plataformas de cimentación.
+      .container.proyectos
+        .columns
+          .column: a(href="#")
+            h3 CARRETERA SILAO
+            p Estabilización de 17,500 m3 de base cementada, de 27 cm de espesor, formada por amteriales pétreos y cemento portland.
+          .column: a(href="#")
+            h3 COMPOSTELA PUERTO VALLARTA
+            p Estabilización de una capa de 27 cm de espesor de base cementada formada por materiales pétreos y cemento portland.
+          .column: a(href="#")
+            h3 LIBRAMIENTO PONIENTE ACAPULCO
+            p Mezcla y tendido de 18,725 m3 de base formada por materiales pétreos de 25 cm de espesor, estabilizada con aditivo Zeolítico y cemento portland.
+      .container
+        .columns
+          .column.has-text-centered
+            a(href="#").button.is-large PROYECTOS
+    #clientes
+      div.band: i.fa.fa-angle-down     
+      .contenedor
+        .container
+          .has-text-centered
+            h2.titulo CLIENTES
+            p Estos son algunos de nuestros clientes satisfechos
+          .columns.has-text-centered
+            .column: img(src="app/img/postensa.png", alt="POSTENSA")
+            .column: img(src="app/img/acciona.png", alt="ACCIONA")
+            .column: img(src="app/img/mitikah.png", alt="MITIKAH")
+            .column: img(src="app/img/ica.png", alt="ICA")
+            .column: img(src="app/img/gcm.png", alt="GCM")
+            .column: img(src="app/img/copri.png", alt="COPRI")
+        div.band: i.fa.fa-angle-down     
+            
+      
+    #contacto
+      div.band: h2.titulo CONTACTO
+      .container
+        .columns
+          .column.is-5.is-offset-1
+            h3 ¡Queremos saber de ti!
+            p Para todo tipo de preguntas, comentarios o cotizaciones, no dudes en contactarnos:
+            form(action="#")
+              .field: input(type="text" placeholder="Nombre" required).input
+              .field: input(type="email" placeholder="Email" required).input
+              .field: input(type="text" placeholder="Asunto" required).input
+              .field: textarea(placeholder="Mensaje").textarea
+              .has-text-right: button(type="submit").button Enviar
+          .column.is-5
+            h3 Teléfonos
+            p 
+              | (+52 55) 5587 4297
+              br
+              | 5587 8928
+              br
+              | 5587 0565
+              br
+              | Lada Sin Costo: (01800) 702 2010 Ext: 0 
+            a(href="#").button.is-large COTIZA
+            hr
+            h3 Para control o pedidos
+            h3 Tel: (+52 55) 5587 4297
+            
+            a(href="#").button.is-warning.is-medium.is-rounded Querétaro
+            a(href="#").button.is-warning.is-medium.is-rounded Puebla
+            a(href="#").button.is-warning.is-medium.is-rounded Cancún
+        div.band: i.fa.fa-angle-down     
+              
+              
+              
+              
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    script(src="https://unpkg.com/slick-carousel@1.8.1/slick/slick.js")
+    script(src="app/script.js")
