@@ -1,0 +1,86 @@
+include _mixin
+doctype
+html(lang="es")
+  head
+    +head
+    title Bombeo de concreto | México | SECEYCO
+    meta(name="description" content="Somos un proveedor estratégico en la industria de la construcción. Bombeo de concreto, Estabilización de suelos.")
+  body
+    
+    +navigation(true)
+    
+
+    #bombeo.topsection
+      
+      .section: .container
+        div.band
+          h2.titulo BOMBEO DE CONCRETO
+          p Bombas Estacionarias - Placing Boom - Bombas Pluma
+          
+        .columns.is-centered
+          .column.is-9
+            p Somos la empresa de bombeo de concreto con una de las #[em flotas más grande en México] y #[strong contamos con equipo con la mayor capacidad de bombeo y más alta tecnología en el mercado].
+            p Tenemos una amplia variedad de maquinaria con lo cual siempre encontramos la mejor y más económica solución para nuestro cliente, contamos con Experiencia en obras de alto grado de precisión y especialidad.
+            p Ofrecemos #[em cobertura nacional], con presencia en las ciudades más importantes del país, desde las cuales se atienden a los alrededores.
+            p Hemos participado en obras de todo tipo, en todos los entornos. Estando siempre orgullosos de poder participar en estos proyectos, buscando siempre ser mejores.
+
+    
+    .doublesection
+      .columns.us
+        .column.bg(style="background-image: url(app/img/bombas-estacionarias.jpg)")
+          | &nbsp;
+        .column
+          .section
+            h2.titulo BOMBAS ESTACIONARIAS
+            p Son bombas que se remolcan con un camión a las que se les conecta tubería para llegar hasta el sitio deseado, de acuerdo con las necesidades de distancia y altura, se ocupan bombas de mayor tamaño, capacidad y potencia.
+            p BOMBAS ESTACIONARIAS DE TODOS TAMAÑOS Y CAPACIDADES.
+            p ·#[strong Bombas Grandes]: Son equipos que por sus características de capacidad y potencia se ocupan para alturas y distancias importantes,  su colocación y arrastre requieren de  cuidados especiales. 
+            p Con un alcance de hasta #[em 300 metros en vertical y 500 metros en horizontal].
+            p ·#[strong Bombas medianas]: Son bombas que tienen un buen rango de alcance, son mas ligeras y permiten su desplazamiento y colocación de forma ágil. Con un alcance de 120 metros en vertical y 200 metros en horizontal.
+            p ·#[strong Bombas chicas]: Son bombas que tienen limitada capacidad de bombeo, se pueden ocupar para distancias y alturas cortas, por su tamaño son muy fáciles de transportar e instalar en obra.
+            p Con un alcance de hasta 50 metros en vertical y 80 metros de horizontal.
+            .has-text-centered: a(href="#cotiza").button Cotizar
+            
+    .doublesection
+      .columns.us
+        .column
+          .section
+            h2.titulo PLACING BOOMS O PLUMAS DISTRIBUIDORAS
+            p Son equipos que se ocupan para la distribución de concreto a la altura que requiera la obra, incrementando la eficiencia en #[em más del 50%] sobre otros métodos.
+            p Para su aplicación se necesita una sola persona, logrando una colocación uniforme del concreto en muros, columnas y losas, estos equipos son alimentados por bombas de concreto estacionarias ubicadas al pie de la obra, colocándose esta pluma distribuidora en la parte superior de las estructura, elevándose conforme a esta avanza por medio de su propio “sistema auto-trepante”, lo que le permite su ubicación en forma estratégica para abarcar todos los elementos a ser bombeados.
+            p Ideales para obras tales como #[strong edificios de gran altura, plantas de tratamiento, puentes, presas, etc.] Estas máquinas ofrecen la posibilidad de ir avanzando con el crecimiento de la estructura.
+            .has-text-centered: a(href="#cotiza").button Cotizar
+        .column.bg(style="background-image: url(app/img/plumas-distribuidoras.jpg)")
+          | &nbsp;
+    
+    .doublesection
+      .columns.us
+        .column.bg(style="background-image: url(app/img/bombas-pluma.jpg)")
+          | &nbsp;
+        .column
+          .section
+            h2.titulo BOMBAS PLUMA
+            p Son equipos de bombeo de concreto montados sobre camión, cuentan con un sistema de brazos articulados a los cuales se encuentra adosada una tubería, lo que permite colocar el concreto en el lugar que se requiera dentro del alcance de su alcance.
+            p ·#[strong Bombas Pluma de 46 metros de alcance en Z]: Con capacidades para bombear #[em 160 m3/hr]. Montadas sobre camiones especiales con cuatro ejes, dos de ellos direccionales. Plegamiento en Z para adecuarse a diversas condiciones de obra. Estos equipos son operados a control remoto inalámbrico para mayor eficacia.
+            P ·#[strong Bombas Pluma de 45 metros de alcance]: Con capacidades para bombear #[em 90 m3/hr]. Montadas sobre camiones especiales con cuatro ejes, dos de ellos direccionales. Estos equipos son operados a control remoto inalámbrico para mayor eficacia.
+            P ·#[strong Bombas Pluma de 36 metros en Z]: Plegamiento en Z para adecuarse a diversas condiciones de obra. Con capacidad de #[em 120 m3/hr]. Estos equipos son operados a control remoto inalámbrico para mayor eficacia.
+            P ·#[strong Bombas Pluma de 28 metros]: De tres a cuatro brazos, con capacidad de #[em 90 y 120 m3/hr], con plegamiento en C o en Z, para ajustarse a cualquier condición de la obra.
+            .has-text-centered: a(href="#cotiza").button Cotizar
+    
+    #cotiza
+      .section: .container
+        div.band: h2.titulo !COTIZA AHORA! #[span BOMBEO DE CONCRETO]
+        .columns.is-centered
+          .column.is-half
+            form(action="#")
+              .field: input(type="text" placeholder="Nombre" required).input
+              .field: input(type="text" placeholder="Empresa o razón social" required).input
+              .field: input(type="text" placeholder="Ciudad o estado" required).input
+              .field: input(type="email" placeholder="Email" required).input
+              .field: input(type="text" placeholder="Metros cúbicos a bombear" required).input
+              .field: textarea(placeholder="Mensaje").textarea
+              .has-text-right: button(type="submit").button Enviar
+    footer
+      +footer
+              
+    +scripts

@@ -1,49 +1,14 @@
+include _mixin
 doctype
 html(lang="es")
   head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css")
-    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
-    link(rel="stylesheet", href="https://unpkg.com/slick-carousel@1.8.1/slick/slick.css")
-    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
-    link(rel="stylesheet" href="app/style.css")
+    +head
     title Bombeo de Concreto | México | SECEYCO
     meta(name="description" content="Somos un proveedor estratégico en la industria de la construcción. Bombeo de concreto, Estabilización de suelos.")
   body
     
+    +navigation(false)
     
-    .navbar(role="navigation")
-        .navbar-brand
-          a(href="http://seceyco.com.com/").navbar-item.has-text-centered
-            img(src="app/img/seceyco.png", alt="SECEYCO")
-          .navbar-burger.burger(data-target="mainMenu")
-            span
-            span
-            span
-        .navbar-menu#mainMenu
-          .navbar-end.mainitems
-            .navbar-item: a(href="#inicio") INICIO
-            .navbar-item
-              .dropdown.is-hoverable
-                .dropdown-trigger
-                  a(href="#servicios") SERVICIOS
-                .dropdown-menu
-                  .dropdown-item: a(href="#servicios") MEJORAMIENTO DE SUELOS
-                  .dropdown-item: a(href="#servicios") BOMBEO DE CONCRETO
-            .navbar-item: a(href="#nosotros") NOSOTROS
-            .navbar-item: a(href="#proyectos") PROYECTOS
-            .navbar-item: a(href="#cotiza") COTIZA
-            .navbar-item: a(href="#contacto") CONTACTO
-          .navbar-end
-            .navbar-item.socials
-              .columns.is-mobile
-                a(href="https://www.facebook.com/Seceyco-301164783714619/" target="_blank").column.fb: i.fa.fa-facebook
-                a(href="https://twitter.com/SECEYCOMX" target="_blank").column.tw: i.fa.fa-twitter
-                a(href="https://www.linkedin.com/company/27116863/" target="_blank").column.li: i.fa.fa-linkedin
-                a(href="https://www.instagram.com/seceyco_/" target="_blank").column.in: i.fa.fa-instagram
-                a(href="https://www.youtube.com/channel/UCYQlUonzRBve1DZYdMMk-_Q" target="_blank").column.yt: i.fa.fa-youtube-play
     header.hero
       video(autoplay muted loop preload="metadata" poster="app/img/seceyco-bg.jpg")
         source(src="app/img/seceyco.mp4" type="video/mp4")
@@ -177,9 +142,46 @@ html(lang="es")
             a(href="#").button.is-warning.is-medium.is-rounded Cancún
         div.band: i.fa.fa-angle-down     
               
+        
+    #sucursales
+      div.band: h2.titulo SUCURSALES
+      .container.has-text-centered
+        +sucursalimg
+      
+    +modalnmap('modal-queretaro')
+      .has-text-centered
+        h2 QUERÉTARO
+      p Prolongación Tecnológico 123, San Agustín El Retablo, Querétaro Querétaro, C.P. 76150
+      p Tel: 0144 2537 5931
+      p Fax: 0144 2537 5932
+      | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.7282907390436!2d-100.4162521420745!3d20.59915077682097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35ac883e91d87%3A0xe77c34594c028855!2sAv+Tecnol%C3%B3gico+123%2C+La+Piedad%2C+76150+Santiago+de+Quer%C3%A9taro%2C+Qro.!5e0!3m2!1ses!2smx!4v1519813911710" width="100%" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    +modalnmap('modal-cdmx')
+      .has-text-centered
+        h2 CDMX
+      p Prolongación Tecnológico 123, San Agustín El Retablo, Querétaro Querétaro, C.P. 76150
+      p Tel: 0144 2537 5931
+      p Fax: 0144 2537 5932
+      | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.7282907390436!2d-100.4162521420745!3d20.59915077682097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35ac883e91d87%3A0xe77c34594c028855!2sAv+Tecnol%C3%B3gico+123%2C+La+Piedad%2C+76150+Santiago+de+Quer%C3%A9taro%2C+Qro.!5e0!3m2!1ses!2smx!4v1519813911710" width="100%" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    +modalnmap('modal-puebla')
+      .has-text-centered
+        h2 PUEBLA
+      p Prolongación Tecnológico 123, San Agustín El Retablo, Querétaro Querétaro, C.P. 76150
+      p Tel: 0144 2537 5931
+      p Fax: 0144 2537 5932
+      | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.7282907390436!2d-100.4162521420745!3d20.59915077682097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35ac883e91d87%3A0xe77c34594c028855!2sAv+Tecnol%C3%B3gico+123%2C+La+Piedad%2C+76150+Santiago+de+Quer%C3%A9taro%2C+Qro.!5e0!3m2!1ses!2smx!4v1519813911710" width="100%" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    +modalnmap('modal-cancun')
+      .has-text-centered
+        h2 CANCÚN
+      p Prolongación Tecnológico 123, San Agustín El Retablo, Querétaro Querétaro, C.P. 76150
+      p Tel: 0144 2537 5931
+      p Fax: 0144 2537 5932
+      | <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.7282907390436!2d-100.4162521420745!3d20.59915077682097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35ac883e91d87%3A0xe77c34594c028855!2sAv+Tecnol%C3%B3gico+123%2C+La+Piedad%2C+76150+Santiago+de+Quer%C3%A9taro%2C+Qro.!5e0!3m2!1ses!2smx!4v1519813911710" width="100%" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    
+    footer
+      +footer
               
-              
-              
-    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
-    script(src="https://unpkg.com/slick-carousel@1.8.1/slick/slick.js")
-    script(src="app/script.js")
+    +scripts

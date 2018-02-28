@@ -16,6 +16,15 @@
 		"oAP": "\/.gitattributes",
 		"oF": 0
 		},
+	"\/_mixin.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_mixin.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/app\/img\/acciona.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -25,6 +34,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/bombas-estacionarias.jpg": {
+		"ft": 16384,
+		"iS": 771509,
+		"oA": 0,
+		"oAP": "\/app\/img\/bombas-estacionarias.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/bombas-pluma.jpg": {
+		"ft": 16384,
+		"iS": 436247,
+		"oA": 0,
+		"oAP": "\/app\/img\/bombas-pluma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/app\/img\/bombeo1.jpg": {
@@ -80,6 +109,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/img\/mejoramiento-de-suelo.jpg": {
+		"ft": 16384,
+		"iS": 1505802,
+		"oA": 0,
+		"oAP": "\/app\/img\/mejoramiento-de-suelo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/app\/img\/mitikah.png": {
 		"ft": 32768,
 		"iS": 14859,
@@ -121,6 +160,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/app\/img\/plumas-distribuidoras.jpg": {
+		"ft": 16384,
+		"iS": 582234,
+		"oA": 0,
+		"oAP": "\/app\/img\/plumas-distribuidoras.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/app\/img\/postensa.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -153,6 +202,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/img\/seceyco-w.png": {
+		"ft": 32768,
+		"iS": 12985,
+		"oA": 0,
+		"oAP": "\/app\/img\/seceyco-w.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/img\/seceyco.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -170,6 +230,26 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/app\/img\/sucursales.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/img\/sucursales.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/app\/script-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/app\/script-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/app\/script.js": {
 		"ft": 64,
@@ -215,6 +295,22 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/bombeo-de-concreto.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/bombeo-de-concreto.html",
+		"oF": 0
+		},
+	"\/bombeo-de-concreto.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/bombeo-de-concreto.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -235,6 +331,22 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/mejoramiento-de-suelos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/mejoramiento-de-suelos.html",
+		"oF": 0
+		},
+	"\/mejoramiento-de-suelos.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/mejoramiento-de-suelos.html",
 		"oF": 0,
 		"oS": 0
 		}

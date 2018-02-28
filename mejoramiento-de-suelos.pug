@@ -1,0 +1,97 @@
+include _mixin
+doctype
+html(lang="es")
+  head
+    +head
+    title Mejoramiento de suelos | México | SECEYCO
+    meta(name="description" content="Somos un proveedor estratégico en la industria de la construcción. Bombeo de concreto, Estabilización de suelos.")
+  body
+    
+    +navigation(true)
+    
+
+    #mejoramiento.topsection
+      
+      .section: .container
+        div.band: h2.titulo MEJORAMIENTO DE SUELOS
+        .columns.is-centered
+          .column.is-9
+            p Ofrecemos servicios profesionales de reciclado, estabilización y mejoramiento de suelos porque sabemos que el esparcido e homogeneización e hidratación de materiales ligantes representa el éxito de cualquier obra.
+            p Contamos con experiencia y equipos de gran capacidad que permiten #[strong estabilizar, mejorar, o recuperar suelos], de manera homogénea, ágil y exacta. Con producciones de hasta 1 hora por día y una dosificación computarizada de cal, cemento o emulsión somos #[em la mejor opción para reducir los tiempos de ejecución y costos de obra], incrementando la calidad del resultado y disminuyendo el impacto ambiental.
+            .has-text-right
+              a(data-modal="#video-suelos").button.is-warning.is-medium.is-rounded Ver Video
+        div.band: i.fa.fa-angle-down
+      
+      .modal#video-suelos
+        .modal-background
+        .modal-content.animated.fadeIn.has-text-centered
+          | <iframe width="560" height="315" src="https://www.youtube.com/embed/P2yMgFFsW4g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        .modal-close.is-large
+    
+    #suelos
+      .columns.us
+        .column.bg
+          | &nbsp;
+        .column
+          .section
+            h2.titulo MEJORAMIENTO DE SUELOS
+            p Contamos con #[strong experiencia] y equipos de #[strong gran capacidad] que permiten estabilizar, mejorar, o recuperar suelos, de manera homogénea, ágil y exacta. Con producciones de hasta 1 HA por día y una dosificación computarizada de cal, cemento o emulsión.
+            p #[strong Somos la mejor opción] para reducir los tiempos de ejecución y costos de obra, incrementando la calidad en el resultado y disminuyendo el impacto ambiental.
+            p Por medio de la estabilización de suelos con cal se puede evitar exportar e importar material, utilizando el terreno arcilloso en sitio mezclado con cal por medio de una reacción química no reversible se obtiene un material con mucho mejores propiedades mecánicas para construir.
+            p Realizamos muestreos en cada obra para determinar la #[strong cantidad óptima] de cal en cada sitio.
+            .has-text-centered: a(href="#cotiza").button Cotizar
+    
+    #procesos
+      .columns
+        .column.is-4
+          .section
+            h2.titulo Limitantes Técnicas y Económicas
+            p La Hidratación del terreno y la dosificación del material ligante son #[strong imprecisos e inadecuados], de acuerdo a las características del terreno y a la mecánica de suelos.
+            ul
+              li La mezcla de los materiales involucrados en el proceso #[strong no se realiza de manera controlada y exacta].
+              li Al concluir. los suelos raramente presentan una composición homogénea punto a punto
+              li #[strong Altos costos operativos] de Mano de Obra y Maquinaria
+              li Tiempo prolongados para la ejecución de la Obra
+              li #[strong Retrasos] en la ejecución de la Obra
+              li Difícil manejo en época de lluvias
+              li Limitantes Técnicas y Económicas
+        .column.procesoscenter
+          .hero: .hero-body.has-text-centered
+              h3.tra
+                i.fa.fa-angle-double-left
+                .is-size-2 PROCESO
+                .is-size-3 TRADICIONAL
+              .vs VS
+              h3.tec
+                .is-size-2 PROCESO
+                .is-size-3 TECNIFICADO
+                i.fa.fa-angle-double-right
+        .column.is-4
+          .section
+            h2.titulo Rendimiento, Calidad y Económico
+            p: strong Esparcidor o Dosificador Streumaster
+            p Se llena con bomba presurizada para la #[em optimización de mano de obra y ahorro de tiempos]
+            ul
+              li Permite la aplicación de los materiales ligantes de acuerdo con la cantidad especificada, fundamental para la estabilización de suelos.
+              li #[em Control electrónico], permite que la cantidad especificada se aplique con la #[em máxima precisión], independientemente de la velocidad del esparcidor.
+            p: strong Estabilizador de Suelos
+            ul
+              li #[em Excelente rendimiento]
+              li Estabilización de grandes extensiones de suelos en corto tiempo
+              li La Dosificación de agua #[em inyectada automáticamente], garantiza que las capas de base sean ligadas hidráulicamente
+              li #[em La calidad de mezcla homogénea] de suelo y materiales ligantes ofrece una alta resistencia a la compresión
+    #cotiza
+      .section: .container
+        div.band: h2.titulo COTIZADOR #[span MEJORAMIENTO DE SUELOS]
+        .columns.is-centered
+          .column.is-half
+            form(action="#")
+              .field: input(type="text" placeholder="Nombre" required).input
+              .field: input(type="email" placeholder="Email" required).input
+              .field: input(type="text" placeholder="Asunto" required).input
+              .field: textarea(placeholder="Mensaje").textarea
+              .has-text-right: button(type="submit").button Enviar
+    footer
+      +footer
+              
+    +scripts

@@ -2,7 +2,7 @@
   min-height: 100px;
   background: #0C2340;
   position: fixed;
-  z-index: 99;
+  z-index: 30;
   left: 0;
   width: 100%;
 }
@@ -150,6 +150,7 @@ h2.titulo {
   font-size: 3em;
   font-weight: bold;
   text-align: center;
+  line-height: 1.1;
 }
 h2.titulo:after {
   content: "";
@@ -158,6 +159,12 @@ h2.titulo:after {
   width: 40%;
   height: 0;
   border-bottom: 8px solid #FC4C02;
+}
+h2.titulo span {
+  display: block;
+  font-size: .5em;
+  margin-bottom: 10px;
+  color: #0C2340;
 }
 .band {
   text-align: center;
@@ -291,6 +298,199 @@ hr {
   border-top: 8px solid #FC4C02;
   width: 20%;
   margin: 10px 0;
+}
+.sucursalimg {
+  width: 80%;
+  margin: 0 auto;
+}
+.sucursalimg .smark:hover {
+  cursor: pointer;
+}
+.sucursalimg .smark:hover #mark-left {
+  fill: #808080;
+}
+.sucursalimg .smark:hover #mark-right {
+  fill: #4D4D4D;
+}
+.modal h2 {
+  margin-bottom: 20px;
+  color: #FC4C02;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.modal .left {
+  background: #0C2340;
+}
+.modal .right {
+  background: #fff;
+}
+.modal .right p {
+  margin: 10px 0;
+}
+footer {
+  background: #0C2340;
+  color: #fff;
+  padding: 20px 0;
+}
+footer a {
+  color: #FC4C02;
+}
+footer a:hover {
+  color: #fff;
+}
+footer .footer-img {
+  max-width: 100px;
+}
+footer .button {
+  margin: 2px;
+}
+.button.is-warning {
+  background: #FA4B06;
+}
+.topsection {
+  padding-top: 100px;
+}
+#mejoramiento {
+  background: #E8E8E8;
+  text-align: justify;
+}
+#mejoramiento em {
+  color: #134CA0;
+  font-weight: bold;
+  font-style: normal;
+}
+#bombeo {
+  background: #E8E8E8;
+  text-align: justify;
+}
+#bombeo em {
+  color: #FC4C02;
+  font-weight: bold;
+  font-style: normal;
+}
+#bombeo p {
+  margin: 10px 0;
+}
+#suelos .columns.us,
+.doublesection .columns.us {
+  margin: 0;
+}
+#suelos .bg,
+.doublesection .bg {
+  background-image: url(img/mejoramiento-de-suelo.jpg);
+  background-size: cover;
+  min-height: 300px;
+}
+#suelos h2,
+.doublesection h2 {
+  text-align: left;
+  color: #0C2340;
+  font-size: 1.8em;
+}
+#suelos h2:after,
+.doublesection h2:after {
+  margin: 0;
+  width: 20%;
+}
+#suelos p,
+.doublesection p {
+  margin: 20px 0;
+}
+#suelos strong,
+.doublesection strong {
+  color: #FC4C02;
+  font-weight: normal;
+}
+.doublesection strong {
+  color: #134CA0;
+  font-weight: bold;
+}
+.doublesection em {
+  color: #FC4C02;
+  font-style: normal;
+}
+#procesos {
+  background: #EDEDED;
+}
+#procesos > .columns {
+  margin: 0;
+}
+#procesos h2 {
+  text-align: left;
+  color: #0C2340;
+  font-size: 1.6em;
+}
+#procesos h2:after {
+  display: none;
+}
+#procesos p {
+  margin: 10px 0;
+}
+#procesos ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+#procesos .procesoscenter {
+  margin: 0;
+  background: #0C2340;
+  display: flex;
+  align-items: center;
+}
+#procesos .procesoscenter .hero {
+  width: 100%;
+}
+#procesos .procesoscenter .hero .hero-body:after,
+#procesos .procesoscenter .hero .hero-body:before {
+  content: "";
+  display: block;
+  margin: 40px auto;
+  width: 14%;
+  height: 0;
+  border-bottom: 8px solid #fff;
+}
+#procesos .procesoscenter .hero h3 {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+#procesos .procesoscenter .hero h3 i {
+  position: absolute;
+  font-size: 40px;
+}
+#procesos .procesoscenter .hero h3.tra {
+  color: #969696;
+}
+#procesos .procesoscenter .hero h3.tra i {
+  left: -10px;
+  top: 10px;
+}
+#procesos .procesoscenter .hero h3.tec {
+  color: #FC4C02;
+}
+#procesos .procesoscenter .hero h3.tec i {
+  right: -10px;
+  bottom: 10px;
+}
+#procesos .procesoscenter .hero .vs {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+#procesos em {
+  color: #FC4C02;
+  font-weight: bold;
+  font-style: normal;
+}
+#cotiza {
+  background: #FC4C02;
+}
+#cotiza h2 {
+  color: #fff;
+}
+#cotiza h2:after {
+  border-color: #fff;
 }
 /* ########################################################################*/
 @media (max-width: 1023px) {
