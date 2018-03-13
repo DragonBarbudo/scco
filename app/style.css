@@ -341,9 +341,14 @@ h2.titulo span {
   font-size: 1em;
 }
 #contacto .is-warning {
-  background: #FC4C02;
-  color: #fff;
   margin: 10px;
+}
+.button.is-warning {
+  background: #FC4C02;
+}
+.button.is-warning:hover {
+  background: #0C2340;
+  color: #FC4C02;
 }
 hr {
   border-top: 8px solid #FC4C02;

@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function () {
 
   /* NAVBARBURGUER*/
@@ -53,10 +55,7 @@ $(document).ready(function(){
 
 
 });
-window.odometerOptions = {
-  duration: 1000,
-  animation: 'count'
-}
+
 
 
 $(window).scroll(function(){
