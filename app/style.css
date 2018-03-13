@@ -58,8 +58,8 @@ h6 {
 }
 .socials a {
   color: #fff;
-  padding: .2rem .5rem;
-  min-width: 36px;
+  padding: .2rem .3rem;
+  min-width: 30px;
   margin: 1px;
 }
 .socials a:hover {
@@ -253,6 +253,7 @@ h2.titulo span {
 }
 #nosotros .columns.us {
   background: #EDEDED;
+  margin: 0;
   margin-bottom: 0.7rem;
 }
 #nosotros .bg {
