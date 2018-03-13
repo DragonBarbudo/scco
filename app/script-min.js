@@ -49,11 +49,14 @@ $(document).ready(function(){
       $('.carousel').slick('unslick');
     });
 
-
+    $('.odometer').html(0);
 
 
 });
-
+window.odometerOptions = {
+  duration: 1000,
+  animation: 'count'
+}
 
 
 $(window).scroll(function(){
