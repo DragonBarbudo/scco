@@ -1,3 +1,19 @@
+.font {
+  font-family: 'Lato', sans-serif;
+}
+body {
+  font-family: Helvetica, Arial;
+  font-weight: lighter;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+}
 .navbar {
   min-height: 100px;
   background: #0C2340;
@@ -65,15 +81,20 @@
 }
 #proyectos .proyectos .column {
   margin: 20px;
-  background: #0C2340;
   position: relative;
+  padding: 0;
+  min-height: 280px;
+  background-size: cover;
+  background-position: center;
 }
 #proyectos .proyectos .column a {
+  background: rgba(13, 35, 64, 0.9);
   display: block;
   height: 100%;
   color: #fff;
   padding: 30px;
   text-align: center;
+  min-height: 280px;
 }
 #proyectos .proyectos .column a h3 {
   font-size: 1.3em;
@@ -151,12 +172,13 @@ h2.titulo {
   font-weight: bold;
   text-align: center;
   line-height: 1.1;
+  display: inline-block;
 }
 h2.titulo:after {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 100%;
   height: 0;
   border-bottom: 8px solid #FC4C02;
 }
@@ -177,7 +199,7 @@ h2.titulo span {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 100%;
   height: 0;
   border-bottom: 8px solid #FC4C02;
 }
@@ -185,21 +207,42 @@ h2.titulo span {
   color: #FC4C02;
   font-size: 4em;
 }
-#servicios a:hover img {
-  transition: .4s;
-  opacity: 0;
+#servicios a {
+  display: block;
+  padding: 140px 0 !important;
+  text-align: center;
+  position: relative;
+  background: #0C2340;
 }
 #servicios a img {
-  transition: .4s;
-  opacity: 1;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 400px;
+  position: relative;
+  z-index: 1;
 }
-#servicios .bombeo {
-  background-image: url(img/bombeo2.jpg);
-  background-size: contain;
+#servicios a .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0.4;
+  transition: all .3s;
 }
-#servicios .movimiento {
-  background-image: url(img/movimiento2.jpg);
-  background-size: contain;
+#servicios a:hover .bg {
+  transition: all .3s;
+  opacity: 0.1;
+}
+#servicios .bombeo .bg {
+  background-image: url(img/bombeo-bg.jpg);
+}
+#servicios .mejoramiento .bg {
+  background-image: url(img/mejoramiento-bg.jpg);
 }
 #nosotros .columns.us {
   background: #EDEDED;
@@ -299,18 +342,29 @@ hr {
   width: 20%;
   margin: 10px 0;
 }
-.sucursalimg {
+svg {
   width: 80%;
   margin: 0 auto;
 }
-.sucursalimg .smark:hover {
+svg .smark:hover {
   cursor: pointer;
 }
-.sucursalimg .smark:hover #mark-left {
+svg .smark:hover #mark-left {
   fill: #808080;
 }
-.sucursalimg .smark:hover #mark-right {
+svg .smark:hover #mark-right {
   fill: #4D4D4D;
+}
+.modal .modal-content {
+  background: #fff;
+  position: relative;
+}
+.modal .modal-content .modal-close {
+  position: absolute;
+}
+.modal .modal-content .modal-close:before,
+.modal .modal-content .modal-close:after {
+  background-color: #FC4C02;
 }
 .modal h2 {
   margin-bottom: 20px;
@@ -326,6 +380,11 @@ hr {
 }
 .modal .right p {
   margin: 10px 0;
+}
+.modal .column {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 footer {
   background: #0C2340;
@@ -457,20 +516,20 @@ footer .button {
 }
 #procesos .procesoscenter .hero h3 i {
   position: absolute;
-  font-size: 40px;
+  font-size: 60px;
 }
 #procesos .procesoscenter .hero h3.tra {
   color: #969696;
 }
 #procesos .procesoscenter .hero h3.tra i {
-  left: -10px;
+  left: -10%;
   top: 10px;
 }
 #procesos .procesoscenter .hero h3.tec {
   color: #FC4C02;
 }
 #procesos .procesoscenter .hero h3.tec i {
-  right: -10px;
+  right: -10%;
   bottom: 10px;
 }
 #procesos .procesoscenter .hero .vs {
@@ -529,5 +588,44 @@ footer .button {
   header.hero .seceyco-s {
     width: 120px;
   }
+}
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 0;
+  background: none;
+  z-index: 9999;
+  border: none;
+  outline: none;
+}
+.slick-arrow:before {
+  font-size: 40px;
+  color: #FC4C02;
+  font-family: fontAwesome;
+}
+.slick-arrow.slick-prev {
+  left: 10px;
+}
+.slick-arrow.slick-prev:before {
+  content: "\f053";
+}
+.slick-arrow.slick-next {
+  right: 10px;
+}
+.slick-arrow.slick-next:before {
+  content: "\f054";
+}
+.proyectos-detalle .pr {
+  display: none;
+}
+.proyectos-detalle h2 {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.proyectos-detalle p {
+  margin: 10px 0;
+}
+.proyectos-detalle .button {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

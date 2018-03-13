@@ -56,6 +56,27 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/app\/img\/bombeo-bg.jpg": {
+		"ft": 16384,
+		"iS": 301050,
+		"oA": 0,
+		"oAP": "\/app\/img\/bombeo-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/bombeo-de-concreto.png": {
+		"ft": 32768,
+		"iS": 51802,
+		"oA": 0,
+		"oAP": "\/app\/img\/bombeo-de-concreto.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/img\/bombeo1.jpg": {
 		"ft": 16384,
 		"iS": 124301,
@@ -87,6 +108,138 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/img\/gal-p1.png": {
+		"ft": 32768,
+		"iS": 364685,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p1a.png": {
+		"ft": 32768,
+		"iS": 119757,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p1a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p2.png": {
+		"ft": 32768,
+		"iS": 532478,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p2a.png": {
+		"ft": 32768,
+		"iS": 471625,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p2a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p3.png": {
+		"ft": 32768,
+		"iS": 351270,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p3a.png": {
+		"ft": 32768,
+		"iS": 308201,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p3a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p4.png": {
+		"ft": 32768,
+		"iS": 471551,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p4a.png": {
+		"ft": 32768,
+		"iS": 102252,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p4a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p5.png": {
+		"ft": 32768,
+		"iS": 224228,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p5a.png": {
+		"ft": 32768,
+		"iS": 579458,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p5a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p6.png": {
+		"ft": 32768,
+		"iS": 528628,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/gal-p6a.png": {
+		"ft": 32768,
+		"iS": 534449,
+		"oA": 0,
+		"oAP": "\/app\/img\/gal-p6a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/img\/gcm.png": {
 		"ft": 32768,
 		"iS": 17709,
@@ -109,6 +262,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/img\/mejoramiento-bg.jpg": {
+		"ft": 16384,
+		"iS": 315204,
+		"oA": 0,
+		"oAP": "\/app\/img\/mejoramiento-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/app\/img\/mejoramiento-de-suelo.jpg": {
 		"ft": 16384,
 		"iS": 1505802,
@@ -117,6 +280,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/app\/img\/mejoramiento-de-suelos.png": {
+		"ft": 32768,
+		"iS": 49497,
+		"oA": 0,
+		"oAP": "\/app\/img\/mejoramiento-de-suelos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/app\/img\/mitikah.png": {
@@ -160,6 +334,127 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/app\/img\/pd-1.png": {
+		"ft": 32768,
+		"iS": 134140,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-1a.png": {
+		"ft": 32768,
+		"iS": 341180,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-1a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-1b.png": {
+		"ft": 32768,
+		"iS": 375663,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-1b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-1c.png": {
+		"ft": 32768,
+		"iS": 336371,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-1c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-1d.png": {
+		"ft": 32768,
+		"iS": 285368,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-1d.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-2.png": {
+		"ft": 32768,
+		"iS": 341180,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-2a.png": {
+		"ft": 32768,
+		"iS": 584970,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-2a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-2b.png": {
+		"ft": 32768,
+		"iS": 653573,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-2b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-3.png": {
+		"ft": 32768,
+		"iS": 602571,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-3a.png": {
+		"ft": 32768,
+		"iS": 663633,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-3a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/pd-3b.png": {
+		"ft": 32768,
+		"iS": 792922,
+		"oA": 0,
+		"oAP": "\/app\/img\/pd-3b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/app\/img\/plumas-distribuidoras.jpg": {
 		"ft": 16384,
 		"iS": 582234,
@@ -180,6 +475,87 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/app\/img\/proyecto-1.jpg": {
+		"ft": 16384,
+		"iS": 56171,
+		"oA": 0,
+		"oAP": "\/app\/img\/proyecto-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/proyecto-2.jpg": {
+		"ft": 16384,
+		"iS": 42665,
+		"oA": 0,
+		"oAP": "\/app\/img\/proyecto-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/proyecto-3.jpg": {
+		"ft": 16384,
+		"iS": 33505,
+		"oA": 0,
+		"oAP": "\/app\/img\/proyecto-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/proyecto-4.jpg": {
+		"ft": 16384,
+		"iS": 55652,
+		"oA": 0,
+		"oAP": "\/app\/img\/proyecto-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/proyecto-5.jpg": {
+		"ft": 16384,
+		"iS": 49865,
+		"oA": 0,
+		"oAP": "\/app\/img\/proyecto-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/proyecto-6.jpg": {
+		"ft": 16384,
+		"iS": 35382,
+		"oA": 0,
+		"oAP": "\/app\/img\/proyecto-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/app\/img\/proyectos-map.png": {
+		"ft": 32768,
+		"iS": 411176,
+		"oA": 0,
+		"oAP": "\/app\/img\/proyectos-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/img\/proyectosm.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/app\/img\/proyectosm.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/app\/img\/seceyco-bg.jpg": {
 		"ft": 16384,
@@ -318,6 +694,22 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/cotiza.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cotiza.html",
+		"oF": 0
+		},
+	"\/cotiza.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/cotiza.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -347,6 +739,22 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/mejoramiento-de-suelos.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/proyectos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/proyectos.html",
+		"oF": 0
+		},
+	"\/proyectos.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/proyectos.html",
 		"oF": 0,
 		"oS": 0
 		}

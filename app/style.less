@@ -1,6 +1,21 @@
 @orange : #FC4C02;
 @blue : #0C2340;
 
+.font{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  font-family: Helvetica, Arial;
+  font-weight: lighter;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  .font;
+  font-weight: bolder;
+}
+
 
 .navbar{
   min-height: 100px;
@@ -68,14 +83,19 @@
   .proyectos{
     .column{
       margin:20px;
-      background: @blue;
       position: relative;
+      padding: 0;
+      min-height: 280px;
+      background-size: cover;
+      background-position: center;
       a{
+        background:rgba(13,35,64,.9);
         display: block;
         height: 100%;
         color:#fff;
         padding: 30px;
         text-align: center;
+        min-height: 280px;
         h3{
           font-size: 1.3em;
           line-height: 1.2;
@@ -162,10 +182,11 @@ h2.titulo{
     font-weight: bold;
     text-align: center;
     line-height: 1.1;
+    display: inline-block;
     &:after{
       content:""; display: block;
       margin: 0 auto;
-      width: 40%; height: 0;
+      width: 100%; height: 0;
       border-bottom: 8px solid @orange;
     }
     span{
@@ -183,7 +204,7 @@ h2.titulo{
     &:after{
       content:""; display: block;
       margin: 0 auto;
-      width: 40%; height: 0;
+      width: 100%; height: 0;
       border-bottom: 8px solid @orange;
     }
   }
@@ -198,24 +219,42 @@ h2.titulo{
 
 #servicios{
   a{
+    display: block;
+    padding: 140px 0 !important;
+    text-align: center;
+    position: relative;
+    background: @blue;
+    img{
+      margin: 0 auto;
+      width: 60%;
+      max-width: 400px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .bg{
+      position: absolute;
+      left: 0; top: 0;
+      right: 0; bottom: 0;
+      width: 100%; height: 100%;
+      background-size: cover;
+      z-index: 0;
+      opacity: 0.4;
+      transition: all .3s;
+    }
     &:hover{
-      img{
-        transition: .4s;
-        opacity: 0;
+      .bg{
+        transition: all .3s;
+        opacity: 0.1;
       }
     }
-    img{
-      transition: .4s;
-      opacity: 1;
-    }
   }
-  .bombeo{
-    background-image:url(img/bombeo2.jpg);
-    background-size: contain;
+  .bombeo .bg{
+    background-image:url(img/bombeo-bg.jpg);
+
   }
-  .movimiento{
-    background-image:url(img/movimiento2.jpg);
-    background-size: contain;
+  .mejoramiento .bg{
+    background-image:url(img/mejoramiento-bg.jpg);
   }
 }
 
@@ -329,7 +368,7 @@ hr{
 }
 
 
-.sucursalimg{
+svg{
   width: 80%;
   margin: 0 auto;
   .smark{
@@ -343,8 +382,14 @@ hr{
 
 
 .modal{
-  .modal-content{
 
+  .modal-content{
+    background: #fff;
+    position: relative;
+    .modal-close{
+      position: absolute;
+      &:before, &:after{ background-color:@orange; }
+    }
   }
   h2{
     margin-bottom: 20px;
@@ -361,6 +406,12 @@ hr{
       margin: 10px 0;
     }
   }
+  .column{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 }
 
 
@@ -501,15 +552,15 @@ footer{
         letter-spacing: 2px;
         i{
           position: absolute;
-          font-size: 40px;
+          font-size: 60px;
         }
         &.tra{
           color:#969696;
-          i{ left: -10px; top: 10px;}
+          i{ left: -10%; top: 10px;}
         }
         &.tec{
           color:@orange;
-          i{ right: -10px; bottom: 10px;}
+          i{ right: -10%; bottom: 10px;}
         }
       }
       .vs{
@@ -582,5 +633,50 @@ footer{
     .seceyco-s{
       width:120px;
     }
+  }
+}
+
+
+
+.slick-arrow{
+  position: absolute;
+  top: 50%;
+  font-size: 0;
+  background: none;
+  z-index: 9999;
+  border:none;
+  outline: none;
+  &:before{
+    font-size: 40px;
+    color:@orange;
+    font-family: fontAwesome;
+  }
+  &.slick-prev{
+    left: 10px;
+    &:before{
+      content:"\f053";
+    }
+  }
+  &.slick-next{
+    right: 10px;
+    &:before{
+      content:"\f054";
+    }
+  }
+}
+
+
+
+.proyectos-detalle{
+  .pr{display: none;}
+  h2{
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  p{
+    margin: 10px 0;
+  }
+  .button{
+    margin-top: 20px;
   }
 }

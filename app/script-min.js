@@ -21,6 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 $(document).ready(function(){
 
+  $(window).hashchange();
+
 /* MENUSCROLL */
   $('a[href^="#"]').on('click', function (e) {
 			e.preventDefault();
@@ -39,12 +41,26 @@ $(document).ready(function(){
     $('[data-modal]').click(function(){
       var open = $(this).attr('data-modal');
       $(open).addClass('is-active');
+      $('.carousel').slick();
     });
     $('.modal-close').click(function(){
       $(this).closest('.modal').removeClass('is-active');
+      $('.carousel').slick('unslick');
     });
 
 
+
+
 });
+
+
+$(window).hashchange( function(){
+  var hash = location.hash;
+  if(hash.includes("#proyecto-")){
+    $('.proyectosmap').hide();
+    $(location.hash).show();
+    $('.slick-slider').slick();
+  }
+})
 
 

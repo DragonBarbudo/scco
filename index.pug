@@ -19,18 +19,20 @@ html(lang="es")
               .columns.is-centered
                 .column.is-6
                   h2 EXPERTOS EN SERVICIOS PARA LA CONSTRUCCIÓN
-                  i.fa.fa-angle-down
+                  a(href="#servicios"): i.fa.fa-angle-down
 
     #servicios
       div.band: h2.titulo SERVICIOS
       .columns.is-gapless
-        a(href="#").column.bombeo
-          img(src="app/img/bombeo1.jpg", alt="Bombeo de concreto")
-        a(href="#").column.movimiento
-          img(src="app/img/movimiento1.jpg", alt="Movimiento de tierras")
+        a(href="bombeo-de-concreto.html").column.bombeo
+          img(src="app/img/bombeo-de-concreto.png", alt="Bombeo de concreto")
+          .bg
+        a(href="mejoramiento-de-suelos.html").column.mejoramiento
+          img(src="app/img/mejoramiento-de-suelos.png", alt="Mejoramiento de suelos")
+          .bg
             
     #nosotros
-      div.band: i.fa.fa-angle-down     
+      div.band: a(href="#nosotros"): i.fa.fa-angle-down     
       .columns.us
         .column.bg
           | &nbsp;
@@ -68,32 +70,32 @@ html(lang="es")
       div.band: h2.titulo CASOS DE ÉXITO
       .container.proyectos
         .columns
-          .column: a(href="#")
+          .column(style="background-image:url('app/img/proyecto-1.jpg')"): a(href="proyectos.html#proyecto-1")
             h3 MINI BODEGAS ADVANCE
             p Estabilización de 30 cm de espesor de suelos arcillosos para la formación de Plataformas, empleando Óxido de Calcio (Estabilical) como material estabilizador, con una dosificación del %3.
-          .column: a(href="#")
+          .column(style="background-image:url('app/img/proyecto-2.jpg')"): a(href="proyectos.html#proyecto-2")
             h3 PLANTA KIA MOTORS MONTERREY
             p Estabilización de 30 cm de espesor de suelos arcillosos para la formación de Plataformas del Patio de Maniobras, con Óxido de Calcio (Estabilical) como material estabilizador y una dosificación del %4.
-          .column: a(href="#")
+          .column(style="background-image:url('app/img/proyecto-3.jpg')"): a(href="proyectos.html#proyecto-3")
             h3 RESIDENCIAL TORRE PIEDRA
             p Saturación 8,500 m2 y 50 cm de espesor de suelos arcillosos, para la formación de Plataformas de cimentación.
       .container.proyectos
         .columns
-          .column: a(href="#")
+          .column(style="background-image:url('app/img/proyecto-4.jpg')"): a(href="proyectos.html#proyecto-4")
             h3 CARRETERA SILAO
             p Estabilización de 17,500 m3 de base cementada, de 27 cm de espesor, formada por amteriales pétreos y cemento portland.
-          .column: a(href="#")
+          .column(style="background-image:url('app/img/proyecto-5.jpg')"): a(href="proyectos.html#proyecto-5")
             h3 COMPOSTELA PUERTO VALLARTA
             p Estabilización de una capa de 27 cm de espesor de base cementada formada por materiales pétreos y cemento portland.
-          .column: a(href="#")
+          .column(style="background-image:url('app/img/proyecto-6.jpg')"): a(href="proyectos.html#proyecto-6")
             h3 LIBRAMIENTO PONIENTE ACAPULCO
             p Mezcla y tendido de 18,725 m3 de base formada por materiales pétreos de 25 cm de espesor, estabilizada con aditivo Zeolítico y cemento portland.
       .container
         .columns
           .column.has-text-centered
-            a(href="#").button.is-large PROYECTOS
+            a(href="proyectos.html").button.is-large PROYECTOS
     #clientes
-      div.band: i.fa.fa-angle-down     
+      div.band: a(href="#clientes"): i.fa.fa-angle-down     
       .contenedor
         .container
           .has-text-centered
@@ -106,7 +108,7 @@ html(lang="es")
             .column: img(src="app/img/ica.png", alt="ICA")
             .column: img(src="app/img/gcm.png", alt="GCM")
             .column: img(src="app/img/copri.png", alt="COPRI")
-        div.band: i.fa.fa-angle-down     
+        div.band: a(href="#contacto"): i.fa.fa-angle-down     
             
       
     #contacto
@@ -137,10 +139,11 @@ html(lang="es")
             h3 Para control o pedidos
             h3 Tel: (+52 55) 5587 4297
             
-            a(href="#").button.is-warning.is-medium.is-rounded Querétaro
-            a(href="#").button.is-warning.is-medium.is-rounded Puebla
-            a(href="#").button.is-warning.is-medium.is-rounded Cancún
-        div.band: i.fa.fa-angle-down     
+            a(data-modal="#modal-queretaro").button.is-warning.is-medium.is-rounded Querétaro
+            a(data-modal="#modal-puebla").button.is-warning.is-medium.is-rounded Puebla
+            a(data-modal="#modal-cancun").button.is-warning.is-medium.is-rounded Cancún
+            a(data-modal="#modal-cdmx").button.is-warning.is-medium.is-rounded CDMX
+        div.band: a(href="#sucursales"): i.fa.fa-angle-down     
               
         
     #sucursales
@@ -148,6 +151,11 @@ html(lang="es")
       .container.has-text-centered
         +sucursalimg
       
+      
+      
+      
+      
+    
     +modalnmap('modal-queretaro')
       .has-text-centered
         h2 QUERÉTARO

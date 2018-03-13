@@ -1,0 +1,58 @@
+include _mixin
+doctype
+html(lang="es")
+  head
+    +head
+    title Mejoramiento de suelos | México | SECEYCO
+    meta(name="description" content="Somos un proveedor estratégico en la industria de la construcción. Bombeo de concreto, Estabilización de suelos.")
+  body
+    
+    +navigation(true)
+    
+
+    #cotiza
+      .section: .container
+        div.band: h2.titulo COTIZADOR #[span Llena tus datos y un experto se comunicará a la brevedad]
+        .columns.is-centered
+          .column.is-half
+            form(action="#")
+              .field
+                label.label Nombre
+                input(type="text" placeholder="Nombre" required).input
+              .field
+                label.label Empresa / Razón social
+                input(type="text" placeholder="Empresa / Razón social" required).input
+              .field
+                label.label Ciudad / Estado
+                input(type="text" placeholder="Ciudad / Estado" required).input
+              .field
+                label.label Email
+                input(type="email" placeholder="Email" required).input
+              .field
+                label.label Teléfono
+                input(type="text" placeholder="Teléfono" required).input
+              .field
+                label.label Equipo / Servicio Requerido
+                .columns
+                  .column
+                    label.checkbox
+                      input(type="checkbox")
+                      |  Bomba Estacionaria 
+                    label.checkbox
+                      input(type="checkbox")
+                      |  Bomba Pluma 
+                  .column
+                    label.checkbox
+                      input(type="checkbox")
+                      |  Placing Booms (Plumas Distribuidoras)
+                    label.checkbox
+                      input(type="checkbox")
+                      |  Mejoramiento de Suelos
+              .field
+                label.label Mensaje
+                textarea(placeholder="Mensaje").textarea
+              .has-text-right: button(type="submit").button Enviar
+    footer
+      +footer
+              
+    +scripts
