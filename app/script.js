@@ -43,6 +43,7 @@ $(document).ready(function(){
       $(open).addClass('is-active');
       $('.carousel').slick();
     });
+
     $('.modal-close').click(function(){
       $(this).closest('.modal').removeClass('is-active');
       $('.carousel').slick('unslick');
@@ -53,6 +54,19 @@ $(document).ready(function(){
 
 });
 
+
+
+$(window).scroll(function(){
+
+  $('.odometer').each(function(){
+    if($(this).visible()){
+      $(this).html($(this).attr('data'));
+    } else {
+      $(this).html(0);
+    }
+  });
+
+});
 
 $(window).hashchange( function(){
   var hash = location.hash;

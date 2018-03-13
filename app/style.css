@@ -1,5 +1,5 @@
 .font {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Avenir Light', 'Lato', sans-serif;
 }
 body {
   font-family: Helvetica, Arial;
@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Avenir Light', 'Lato', sans-serif;
   font-weight: bolder;
 }
 .navbar {
@@ -21,6 +21,8 @@ h6 {
   z-index: 30;
   left: 0;
   width: 100%;
+  font-family: 'Avenir Light', 'Lato', sans-serif;
+  font-size: 0.9em;
 }
 .navbar-brand {
   background: #FC4C02;
@@ -258,7 +260,7 @@ h2.titulo span {
 }
 #nosotros h2:after {
   margin: 0;
-  width: 20%;
+  width: 100%;
 }
 #nosotros p {
   margin: 20px 0;
@@ -270,7 +272,7 @@ h2.titulo span {
 #nosotros .estadisticas p {
   margin: 0;
 }
-#nosotros .estadisticas p.is-size-1 {
+#nosotros .estadisticas p.is-size-2 {
   margin-top: 20px;
   font-weight: bold;
 }

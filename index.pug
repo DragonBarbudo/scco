@@ -48,22 +48,22 @@ html(lang="es")
         .container
           .columns.has-text-centered
             .column
-              p.is-size-1 1979
+              p.is-size-2 #[span.odometer(data="1979") 1979]
               p.is-size-5 Año de Establecimiento
             .column
-              p.is-size-1 +20
+              p.is-size-2 +#[span.odometer(data="20") 20]
               p.is-size-5 Millones m3 bombeados
             .column
-              p.is-size-1 +300
+              p.is-size-2 +#[span.odometer(data="300") 300]
               p.is-size-5 Metros de altura en bombeo en croncreto
             .column
-              p.is-size-1 21
+              p.is-size-2 #[span.odometer(data="21") 21]
               p.is-size-5 Días de colado continuo
             .column
-              p.is-size-1 +1000
+              p.is-size-2 +#[span.odometer(data="1000") 1000]
               p.is-size-5 Proyectos completados
             .column
-              p.is-size-1 +35000
+              p.is-size-2 +#[span.odometer(data="3500") 35000]
               p.is-size-5 M3 estabilizados con cal en un mes
     
     #proyectos
@@ -134,7 +134,7 @@ html(lang="es")
               | 5587 0565
               br
               | Lada Sin Costo: (01800) 702 2010 Ext: 0 
-            a(href="#").button.is-large COTIZA
+            a(href="cotiza.html").button.is-large COTIZA
             hr
             h3 Para control o pedidos
             h3 Tel: (+52 55) 5587 4297
