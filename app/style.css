@@ -176,6 +176,11 @@ h2.titulo {
   line-height: 1.1;
   display: inline-block;
 }
+@media (max-width: 400px) {
+  h2.titulo {
+    font-size: 2.4em;
+  }
+}
 h2.titulo:after {
   content: "";
   display: block;
